@@ -1,0 +1,127 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Stage</title>
+
+
+    <style>
+
+        .node {
+            cursor: pointer;
+        }
+
+        .node circle {
+            fill: #fff;
+            stroke: steelblue;
+            stroke-width: 1.5px;
+        }
+
+        .node text {
+            font: 10px sans-serif;
+        }
+
+        .link {
+            fill: none;
+            stroke: #ccc;
+            stroke-width: 1.5px;
+        }
+
+    </style>
+
+
+    <script src="https://code.jquery.com/jquery-2.2.4.js" integrity="sha256-iT6Q9iMJYuQiMWNd9lDyBUStIq/8PuOW33aOqmvFpqI=" crossorigin="anonymous"></script>
+    <script src="d3.v3.min.js"></script>
+    <script src="lib/d3.js"></script>
+    <script src="jsonParse.js"></script>
+</head>
+<body>
+
+<script >
+
+    treeData = JSON.parse(localStorage.getItem('D3Json'));
+
+    $(document).ready(function () {
+        init().then(actual_JSON =>{
+            data=D3TreeParse(extractFromJson(actual_JSON,
+               (k,v,c)=>c? ['operatorID','id','id_refSite','city_orasId','cityCode','cityName','codeHexacleVoie','modifiedBy','country','createdBy','createdWhen','modifiedWhen','province','provinceCode',"ownerPresenceMandatory",'geographicCoords','geoCodeY','geoCodeZ','geoCodeX','idOrgin','displayName','postalCode','alias','accessLinks','premiseLinks','type','additionalInformation','remarcability','anchorPointValue','anchorPointValueCodeParam','nacelleAccessibilityValue','nacelleAccessibilityValueCodeParam','system','streetNumber','validationLevel','asbestos','comments','fileDate','interventionInstruction','nonCrispLocalisation','status','street','typeCodeParam','name','description','codeHexacleNumero','usageLinks','complexity','number','partiesLinks','operatorName','taoStatus','taoStatusCodeParam','guardianAvailability','interventionNotice','numberOfDeclaredApartments','accessTypeCode','firstName','lastName','role','shortName','specificityOfHabitatCodeParam','totalNbApartments','context','contextCodeParam','interventionAuthorizationCodeParam','statusCodeParam','0','1','2','3','4','5','6','7','8','9','10','11','12','13','14','15','16','17','18','19','20','partyLinks','floorLinks'].indexOf(k) == -1 : ['access','address',"principalAddress", "builts", "premises","parties","usages","floor","staircase","usages"].indexOf(k) != -1
+            ), 'Site');
+
+            var blob = JSON.stringify(data);
+
+            console.log("nour : "+blob);
+
+
+        });
+    })
+
+
+
+
+    // set the dimensions and margins of the diagram
+  /*  var margin = {top: 20, right: 90, bottom: 30, left: 90},
+        width = 660 - margin.left - margin.right,
+        height = 500 - margin.top - margin.bottom;
+
+    // declares a tree layout and assigns the size
+    var treemap = d3.tree()
+        .size([height, width]);
+
+    // load the external data
+
+
+        //  assigns the data to a hierarchy using parent-child relationships
+        var nodes = d3.hierarchy(treeData, function(d) {
+            return d.children;
+        });
+
+        // maps the node data to the tree layout
+        nodes = treemap(nodes);
+
+        // append the svg object to the body of the page
+        // appends a 'group' element to 'svg'
+        // moves the 'group' element to the top left margin
+        var svg = d3.select("body").append("svg")
+                .attr("width", width + margin.left + margin.right)
+                .attr("height", height + margin.top + margin.bottom),
+            g = svg.append("g")
+                .attr("transform",
+                    "translate(" + margin.left + "," + margin.top + ")");
+
+        // adds the links between the nodes
+        var link = g.selectAll(".link")
+            .data( nodes.descendants().slice(1))
+            .enter().append("path")
+            .attr("class", "link")
+            .attr("d", function(d) {
+                return "M" + d.y + "," + d.x
+                    + "C" + (d.y + d.parent.y) / 2 + "," + d.x
+                    + " " + (d.y + d.parent.y) / 2 + "," + d.parent.x
+                    + " " + d.parent.y + "," + d.parent.x;
+            });
+
+        // adds each node as a group
+        var node = g.selectAll(".node")
+            .data(nodes.descendants())
+            .enter().append("g")
+            .attr("class", function(d) {
+                return "node" +
+                    (d.children ? " node--internal" : " node--leaf"); })
+            .attr("transform", function(d) {
+                return "translate(" + d.y + "," + d.x + ")"; });
+
+        // adds the circle to the node
+        node.append("circle")
+            .attr("r", 10);
+
+        // adds the text to the node
+        node.append("text")
+            .attr("dy", ".35em")
+            .attr("x", function(d) { return d.children ? -13 : 13; })
+            .style("text-anchor", function(d) {
+                return d.children ? "end" : "start"; })
+            .text(function(d) { return d.data.name; });*/
+
+</script>
+</body>
+</html>

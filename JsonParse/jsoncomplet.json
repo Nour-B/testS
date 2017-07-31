@@ -1,0 +1,622 @@
+{
+  "access": [
+    {
+      "accessTypeCode": "",
+      "alias": {
+        "id": "SSS0100000000009929557739",
+        "id_refSite": "149968396725932",
+        "origin": "SISSI",
+        "typeNode": "Access"
+      },
+      "complexity": {
+        "guardianAvailability": "",
+        "interventionNotice": ""
+      },
+      "createdBy": "AAAA1111",
+      "createdWhen": "20170710115247",
+      "description": "ACC_01",
+      "id": "149968396725932",
+      "modifiedBy": "AAAA1111",
+      "modifiedWhen": "20170710115247",
+      "name": "ACC_01",
+      "ownerPresenceMandatory": "",
+      "relationShips": [
+        {
+          "displayName": "SIT_000026508M",
+          "idOrgin": "9126924659411918148",
+          "typeOrigin": "Site"
+        },
+        {
+          "displayName": "[no name]",
+          "idOrgin": "149916396978831",
+          "typeOrigin": "Built"
+        }
+      ],
+      "remarcability": {
+        "anchorPointValue": "",
+        "anchorPointValueCodeParam": "non",
+        "nacelleAccessibilityValue": "",
+        "nacelleAccessibilityValueCodeParam": ""
+      },
+      "type": ""
+    }
+  ],
+  "address": [
+    {
+      "cityCode": "31555",
+      "cityName": "Toulouse",
+      "city_orasId": "13197",
+      "codeHexacleVoie": "31555227NG",
+      "country": "France",
+      "createdBy": "AAAA1111",
+      "createdWhen": "20170710115413",
+      "geographicCoords": {
+        "geoCodeX": "1.426416",
+        "geoCodeY": "43.646501",
+        "geoCodeZ": "0.0",
+        "system": "WGS84"
+      },
+      "id": "149968405392626",
+      "modifiedBy": "AAAA1111",
+      "modifiedWhen": "20170710115413",
+      "name": "AdressSecondaire",
+      "postalCode": "31200",
+      "province": "Haute-Garonne",
+      "provinceCode": "31",
+      "relationShips": [
+        {
+          "displayName": "SIT_000026508M",
+          "idOrgin": "9126924659411918148",
+          "typeOrigin": "Site"
+        }
+      ],
+      "status": "Validé niveau rue par Oras",
+      "street": {
+        "hexaviaCode": "00552581",
+        "name": "de la Glacière",
+        "orasId": "732505",
+        "rivoliCode": "3923",
+        "type": "Rue"
+      },
+      "streetNumber": {},
+      "validationLevel": "22"
+    }
+  ],
+  "alias": {
+    "id": "SSS0100000000000000021793",
+    "id_refSite": "9126924659411918148",
+    "name": "SSS0100000000000000021793",
+    "origin": "SISSI",
+    "typeNode": "Site"
+  },
+  "asbestos": {
+    "code": "AMX (Absence de DTA)",
+    "codeParam": "AMX",
+    "comments": "",
+    "crispLocalisation": "",
+    "fileDate": "",
+    "interventionInstruction": "",
+    "nonCrispLocalisation": ""
+  },
+  "builts": [
+    {
+      "access": [
+        {
+          "accessTypeCode": "",
+          "alias": {
+            "id": "SSS0100000000009929557739",
+            "id_refSite": "149968396725932",
+            "origin": "SISSI",
+            "typeNode": "Access"
+          },
+          "complexity": {
+            "guardianAvailability": "",
+            "interventionNotice": ""
+          },
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115247",
+          "description": "ACC_01",
+          "id": "149968396725932",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115247",
+          "name": "ACC_01",
+          "ownerPresenceMandatory": "",
+          "relationShips": [
+            {
+              "displayName": "SIT_000026508M",
+              "idOrgin": "9126924659411918148",
+              "typeOrigin": "Site"
+            },
+            {
+              "displayName": "[no name]",
+              "idOrgin": "149916396978831",
+              "typeOrigin": "Built"
+            }
+          ],
+          "remarcability": {
+            "anchorPointValue": "",
+            "anchorPointValueCodeParam": "non",
+            "nacelleAccessibilityValue": "",
+            "nacelleAccessibilityValueCodeParam": ""
+          },
+          "type": ""
+        }
+      ],
+      "accessLinks": [
+        "149968396725932"
+      ],
+      "additionalInformation": "",
+      "address": [],
+      "alias": {
+        "id": "SSS0100000000009929557402",
+        "id_refSite": "149916396978831",
+        "origin": "SISSI",
+        "typeNode": "Built"
+      },
+      "createdBy": "AAAA1111",
+      "createdWhen": "20170704112609",
+      "description": "",
+      "floors": [
+        {
+          "accessLinks": [],
+          "alias": {
+            "id": "SSS0100000000009929557742",
+            "id_refSite": "149968401308926",
+            "origin": "SISSI",
+            "typeNode": "Floor"
+          },
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115333",
+          "id": "149968401308926",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115333",
+          "name": "1",
+          "number": "1",
+          "numberOfDeclaredApartments": "",
+          "operatorID": "",
+          "operatorName": "",
+          "partiesLinks": [],
+          "premiseLinks": [],
+          "relationships": [
+            {
+              "displayName": "Esacalier",
+              "idOrgin": "149968399847228",
+              "typeOrigin": "Staircase"
+            }
+          ],
+          "taoStatus": "Créé par utilisateur",
+          "taoStatusCodeParam": "USER",
+          "type": "Indéfini",
+          "typeCodeParam": "IND",
+          "usageLinks": []
+        },
+        {
+          "accessLinks": [],
+          "alias": {
+            "id": "SSS0100000000009929557743",
+            "id_refSite": "149968401373826",
+            "origin": "SISSI",
+            "typeNode": "Floor"
+          },
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115333",
+          "id": "149968401373826",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115333",
+          "name": "2",
+          "number": "2",
+          "numberOfDeclaredApartments": "",
+          "operatorID": "",
+          "operatorName": "",
+          "partiesLinks": [],
+          "premiseLinks": [],
+          "relationships": [
+            {
+              "displayName": "Esacalier",
+              "idOrgin": "149968399847228",
+              "typeOrigin": "Staircase"
+            }
+          ],
+          "taoStatus": "Créé par utilisateur",
+          "taoStatusCodeParam": "USER",
+          "type": "Indéfini",
+          "typeCodeParam": "IND",
+          "usageLinks": []
+        }
+      ],
+      "geographicCoords": {
+        "geoCodeX": "1.426416",
+        "geoCodeY": "43.646501",
+        "geoCodeZ": "0.0",
+        "system": "WGS84"
+      },
+      "id": "149916396978831",
+      "interventionAuthorizationCodeParam": "",
+      "modifiedBy": "AAAA1111",
+      "modifiedWhen": "20170704112609",
+      "name": "[no name]",
+      "parties": [
+        {
+          "alias": {
+            "id": "SSS0100000000009929557738",
+            "id_refSite": "149968390797236",
+            "origin": "SISSI",
+            "typeNode": "Party"
+          },
+          "complexity": {},
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115147",
+          "description": "CONT_01",
+          "firstName": "CONT_01",
+          "id": "149968390797236",
+          "lastName": "CONT_01",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115147",
+          "name": "CONT_01",
+          "relationShips": [
+            {
+              "displayName": "SIT_000026508M",
+              "idOrgin": "9126924659411918148",
+              "typeOrigin": "Site"
+            },
+            {
+              "displayName": "[no name]",
+              "idOrgin": "149916396978831",
+              "typeOrigin": "Built"
+            }
+          ],
+          "role": ""
+        }
+      ],
+      "partyLinks": [
+        "149968390797236"
+      ],
+      "premiseLinks": [
+        "149968402445541"
+      ],
+      "premises": [
+        {
+          "accessLinks": [],
+          "alias": {
+            "id": "SSS0100000000009929557744",
+            "id_refSite": "149968402445541",
+            "origin": "SISSI",
+            "typeNode": "Premise"
+          },
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115344",
+          "description": "LOC_01",
+          "geographicCoords": {
+            "geoCodeX": "1.426416",
+            "geoCodeY": "43.646501",
+            "geoCodeZ": "0.0",
+            "system": "WGS84"
+          },
+          "id": "149968402445541",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115344",
+          "name": "LOC_01",
+          "partiesLinks": [],
+          "relationShips": [
+            {
+              "displayName": "[no name]",
+              "idOrgin": "149916396978831",
+              "typeOrigin": "Built"
+            }
+          ],
+          "type": "Armoire",
+          "typeCodeParam": "ARM",
+          "usageLinks": []
+        }
+      ],
+      "principalAddress": {
+        "additionalInformation": "",
+        "cityCode": "31555",
+        "cityName": "Toulouse",
+        "city_orasId": "13197",
+        "codeHexacleNumero": "",
+        "codeHexacleVoie": "31555227NG",
+        "country": "France",
+        "createdBy": "Administrator",
+        "createdWhen": "20101006013057",
+        "geographicCoords": {
+          "geoCodeX": "1.426416",
+          "geoCodeY": "43.646501",
+          "geoCodeZ": "0.0",
+          "system": "WGS84"
+        },
+        "id": "149916396978831",
+        "modifiedBy": "HXTL6187",
+        "modifiedWhen": "20170616130530",
+        "name": "SIT_000026508M.01",
+        "postalCode": "31200",
+        "province": "Haute-Garonne",
+        "provinceCode": "31",
+        "relationShips": [
+          {
+            "displayName": "[no name]",
+            "idOrgin": "149916396978831",
+            "typeOrigin": "Built"
+          }
+        ],
+        "status": "Adresse forcée au niveau numéro",
+        "street": {
+          "hexaviaCode": "00552581",
+          "name": "de la Glacière",
+          "orasId": "732505",
+          "rivoliCode": "3923",
+          "type": "Rue"
+        },
+        "streetNumber": {
+          "letter": "8",
+          "number": "71"
+        },
+        "validationLevel": "32"
+      },
+      "relationShips": [
+        {
+          "displayName": "SIT_000026508M",
+          "idOrgin": "9126924659411918148",
+          "typeOrigin": "Site"
+        }
+      ],
+      "shortName": "",
+      "specificityOfHabitatCodeParam": "",
+      "stairCases": [
+        {
+          "accessLinks": [],
+          "alias": {
+            "id": "SSS0100000000009929557741",
+            "id_refSite": "149968399847228",
+            "origin": "SISSI",
+            "typeNode": "Staircase"
+          },
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115318",
+          "floorLinks": [
+            "149968401308926",
+            "149968401373826"
+          ],
+          "id": "149968399847228",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115318",
+          "name": "Esacalier",
+          "number": "1",
+          "partiesLinks": [],
+          "premiseLinks": [],
+          "relationShips": [
+            {
+              "displayName": "[no name]",
+              "idOrgin": "149916396978831",
+              "typeOrigin": "Built"
+            }
+          ],
+          "shortName": "Es",
+          "taoStatus": "Créé par utilisateur",
+          "usageLinks": []
+        },
+        {
+          "accessLinks": [],
+          "alias": {
+            "id": "SSS0100000000009929557740",
+            "id_refSite": "149968398515627",
+            "origin": "SISSI",
+            "typeNode": "Staircase"
+          },
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115304",
+          "floorLinks": [],
+          "id": "149968398515627",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115304",
+          "name": "Esaclaier",
+          "partiesLinks": [],
+          "premiseLinks": [],
+          "relationShips": [
+            {
+              "displayName": "[no name]",
+              "idOrgin": "149916396978831",
+              "typeOrigin": "Built"
+            }
+          ],
+          "shortName": "Es",
+          "taoStatus": "Créé par utilisateur",
+          "usageLinks": []
+        }
+      ],
+      "statusCodeParam": "",
+      "taoStatus": "Créé par utilisateur",
+      "taoStatusCodeParam": "USER",
+      "totalNbApartments": "0",
+      "type": "Immeuble à usage d'habitation",
+      "typeCodeParam": "IMH",
+      "usageLinks": [
+        "149968388607940"
+      ],
+      "usages": [
+        {
+          "context": "Orange",
+          "contextCodeParam": "ORA",
+          "createdBy": "AAAA1111",
+          "createdWhen": "20170710115126",
+          "id": "149968388607940",
+          "modifiedBy": "AAAA1111",
+          "modifiedWhen": "20170710115126",
+          "name": "Usage",
+          "relationShips": [
+            {
+              "displayName": "SIT_000026508M",
+              "idOrgin": "9126924659411918148",
+              "typeOrigin": "Site"
+            },
+            {
+              "displayName": "[no name]",
+              "idOrgin": "149916396978831",
+              "typeOrigin": "Built"
+            }
+          ]
+        }
+      ]
+    }
+  ],
+  "constructionDate": "",
+  "createdBy": "Administrator",
+  "createdWhen": "20101006044841",
+  "description": "",
+  "geographicCoords": {
+    "geoCodeX": "1.42644",
+    "geoCodeY": "43.64655",
+    "geoCodeZ": "0.0",
+    "system": "WGS84"
+  },
+  "id": "9126924659411918148",
+  "isSynchronizedWithTAO": "",
+  "modifiedBy": "HXTL6187",
+  "modifiedWhen": "20170616130512",
+  "name": "SIT_000026508M",
+  "numberOfDeclaredApartments": "",
+  "parties": [
+    {
+      "alias": {
+        "id": "SSS0100000000009929557738",
+        "id_refSite": "149968390797236",
+        "origin": "SISSI",
+        "typeNode": "Party"
+      },
+      "complexity": {},
+      "createdBy": "AAAA1111",
+      "createdWhen": "20170710115147",
+      "description": "CONT_01",
+      "firstName": "CONT_01",
+      "id": "149968390797236",
+      "lastName": "CONT_01",
+      "modifiedBy": "AAAA1111",
+      "modifiedWhen": "20170710115147",
+      "name": "CONT_01",
+      "relationShips": [
+        {
+          "displayName": "SIT_000026508M",
+          "idOrgin": "9126924659411918148",
+          "typeOrigin": "Site"
+        },
+        {
+          "displayName": "[no name]",
+          "idOrgin": "149916396978831",
+          "typeOrigin": "Built"
+        }
+      ],
+      "role": ""
+    }
+  ],
+  "premises": [
+    {
+      "accessLinks": [],
+      "alias": {
+        "id": "SSS0100000000009929557744",
+        "id_refSite": "149968402445541",
+        "origin": "SISSI",
+        "typeNode": "Premise"
+      },
+      "createdBy": "AAAA1111",
+      "createdWhen": "20170710115344",
+      "description": "LOC_01",
+      "geographicCoords": {
+        "geoCodeX": "1.426416",
+        "geoCodeY": "43.646501",
+        "geoCodeZ": "0.0",
+        "system": "WGS84"
+      },
+      "id": "149968402445541",
+      "modifiedBy": "AAAA1111",
+      "modifiedWhen": "20170710115344",
+      "name": "LOC_01",
+      "partiesLinks": [],
+      "relationShips": [
+        {
+          "displayName": "[no name]",
+          "idOrgin": "149916396978831",
+          "typeOrigin": "Built"
+        }
+      ],
+      "type": "Armoire",
+      "typeCodeParam": "ARM",
+      "usageLinks": []
+    }
+  ],
+  "principalAddress": {
+    "additionalInformation": "",
+    "cityCode": "31555",
+    "cityName": "Toulouse",
+    "city_orasId": "13197",
+    "codeHexacleNumero": "",
+    "codeHexacleVoie": "31555227NG",
+    "country": "France",
+    "createdBy": "Administrator",
+    "createdWhen": "20101006013057",
+    "geographicCoords": {
+      "geoCodeX": "1.426416",
+      "geoCodeY": "43.646501",
+      "geoCodeZ": "0.0",
+      "system": "WGS84"
+    },
+    "id": "9126924305211724259",
+    "modifiedBy": "HXTL6187",
+    "modifiedWhen": "20170616130530",
+    "name": "SIT_000026508M.01",
+    "postalCode": "31200",
+    "province": "Haute-Garonne",
+    "provinceCode": "31",
+    "relationShips": [
+      {
+        "displayName": "SIT_000026508M",
+        "idOrgin": "9126924659411918148",
+        "typeOrigin": "Site"
+      }
+    ],
+    "status": "Adresse forcée au niveau numéro",
+    "street": {
+      "hexaviaCode": "00552581",
+      "name": "de la Glacière",
+      "orasId": "732505",
+      "rivoliCode": "3923",
+      "type": "Rue"
+    },
+    "streetNumber": {
+      "letter": "8",
+      "number": "71"
+    },
+    "validationLevel": "32"
+  },
+  "remarcability": {
+    "highVoltageLinePresenceValue": "",
+    "highVoltageLinePresenceValueCodeParam": ""
+  },
+  "siteType": "Immeuble",
+  "status": "Actif",
+  "toTAOSynchronize": "",
+  "totalNbApartments": "",
+  "usages": [
+    {
+      "context": "Orange",
+      "contextCodeParam": "ORA",
+      "createdBy": "AAAA1111",
+      "createdWhen": "20170710115126",
+      "id": "149968388607940",
+      "modifiedBy": "AAAA1111",
+      "modifiedWhen": "20170710115126",
+      "name": "Usage",
+      "relationShips": [
+        {
+          "displayName": "SIT_000026508M",
+          "idOrgin": "9126924659411918148",
+          "typeOrigin": "Site"
+        },
+        {
+          "displayName": "[no name]",
+          "idOrgin": "149916396978831",
+          "typeOrigin": "Built"
+        }
+      ]
+    }
+  ]
+}
